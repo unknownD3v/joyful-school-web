@@ -1,12 +1,14 @@
+
 import React from "react";
+import { Smartphone, Shield, ToyBrick, Library, Video, Baby } from "lucide-react";
 
 const facilities = [
-  { title: "Smart Classrooms", icon: "📱" },
-  { title: "Safe Campus", icon: "🛡️" },
-  { title: "Play Area", icon: "🎠" },
-  { title: "Library", icon: "📚" },
-  { title: "CCTV", icon: "🎥" },
-  { title: "Daycare", icon: "🧸" }
+  { title: "Smart Classrooms", icon: Smartphone },
+  { title: "Safe Campus", icon: Shield },
+  { title: "Play Area", icon: ToyBrick },
+  { title: "Library", icon: Library },
+  { title: "CCTV", icon: Video },
+  { title: "Daycare", icon: Baby }
 ];
 const FacilitiesGrid = () => (
   <section className="my-16">
@@ -17,7 +19,9 @@ const FacilitiesGrid = () => (
           key={i}
           className={`section-bg card-bg flex flex-col items-center p-5 transition hover:shadow-lg`}
         >
-          <div className="text-3xl mb-2">{f.icon}</div>
+          <div className="text-3xl mb-2 text-primary">
+            <f.icon size={36} strokeWidth={1.5} />
+          </div>
           <div className="font-semibold">{f.title}</div>
         </div>
       ))}
