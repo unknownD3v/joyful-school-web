@@ -1,28 +1,26 @@
-
-import { Library, Camera, Shield, Users, Baby, MonitorSmartphone } from "lucide-react";
+import React from "react";
 
 const facilities = [
-  { label: "Smart Classrooms", icon: MonitorSmartphone, desc: "Modern digital learning spaces." },
-  { label: "Safe Campus", icon: Shield, desc: "CCTV monitoring & secure entry." },
-  { label: "Play Area", icon: Baby, desc: "Colorful indoor/outdoor fun zones." },
-  { label: "Library", icon: Library, desc: "Reading nooks & story time." },
-  { label: "Daycare", icon: Users, desc: "Loving care beyond school hours." }
+  { title: "Smart Classrooms", icon: "📱" },
+  { title: "Safe Campus", icon: "🛡️" },
+  { title: "Play Area", icon: "🎠" },
+  { title: "Library", icon: "📚" },
+  { title: "CCTV", icon: "🎥" },
+  { title: "Daycare", icon: "🧸" }
 ];
-
 const FacilitiesGrid = () => (
-  <section className="max-w-6xl mx-auto py-10 px-2">
-    <h2 className="font-display text-2xl md:text-3xl font-semibold mb-8 text-primary text-center">Facilities</h2>
-    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-      {facilities.map(({ label, icon: Icon, desc }) => (
-        <div key={label} className="flex flex-col items-center bg-white/90 rounded-2xl shadow-soft p-6 hover:shadow-lg transition">
-          <span className="rounded-full bg-pastel-yellow p-3 mb-3 shadow animate-float">
-            <Icon size={32} className="text-primary" />
-          </span>
-          <h4 className="font-display text-lg font-bold mb-2 text-primary">{label}</h4>
-          <p className="text-primary/80 text-sm">{desc}</p>
+  <section className="my-16">
+    <h2 className="font-display text-xl text-primary mb-6 text-center">Facilities</h2>
+    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      {facilities.map((f, i) => (
+        <div
+          key={i}
+          className={`section-bg card-bg flex flex-col items-center p-5 transition hover:shadow-lg`}
+        >
+          <div className="text-3xl mb-2">{f.icon}</div>
+          <div className="font-semibold">{f.title}</div>
         </div>
       ))}
-      {/* Add more cards if needed */}
     </div>
   </section>
 );

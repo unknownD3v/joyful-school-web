@@ -44,9 +44,10 @@ const Footer = () => (
         </ul>
       </section>
     </div>
-    <div className="text-xs mt-8 text-center text-primary">
-      <span>© {new Date().getFullYear()} Joyful School. All rights reserved. | Website developed & maintained by {" "}
-        <a href="https://agency.afzaldev.in" className="underline" target="_blank" rel="noopener">AfzalDev Agency</a>
+    <div className="mt-8 flex flex-col md:flex-row md:justify-between md:items-center text-xs text-primary px-8 max-w-screen-xl mx-auto">
+      <span>© {new Date().getFullYear()} Joyful School. All rights reserved.</span>
+      <span className="mt-2 md:mt-0 md:text-right">
+        Website developed &amp; maintained by <a href="https://agency.afzaldev.in" className="underline" target="_blank" rel="noopener">AfzalDev Agency</a>
       </span>
     </div>
   </footer>

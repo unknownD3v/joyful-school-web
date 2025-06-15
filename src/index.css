@@ -10,3 +10,25 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @apply font-display;
 }
+
+/* Improve card, section contrast */
+.section-bg {
+  @apply bg-white shadow-soft rounded-xl;
+}
+
+.card-bg {
+  @apply bg-pastel-blue/60 border border-pastel-blue;
+}
+
+.card-yellow {
+  @apply bg-pastel-yellow/90 border border-accent;
+}
+
+.card-pink {
+  @apply bg-pastel-pink/70 border border-pastel-pink;
+}
+
+/* Use a pastel blue for hero for better separation */
+.hero-bg {
+  @apply bg-skyblue bg-clouds bg-no-repeat bg-cover;
+}
