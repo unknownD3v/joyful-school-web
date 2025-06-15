@@ -3,10 +3,10 @@ import React from "react";
 
 const GalleryPreview = () => {
   const images = [
-    "https://images.unsplash.com/photo-1527419163649-65481a5390a7?auto=format&fit=crop&w=400&q=80",
-    "https://images.unsplash.com/photo-1587413009772-1c05d7a641a1?auto=format&fit=crop&w=400&q=80",
-    "https://images.unsplash.com/photo-1503919545826-a9d9e3de8340?auto=format&fit=crop&w=400&q=80",
-    "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=400&q=80",
+    "https://source.unsplash.com/400x400/?school,classroom",
+    "https://source.unsplash.com/400x400/?children,playing",
+    "https://source.unsplash.com/400x400/?teacher,student",
+    "https://source.unsplash.com/400x400/?kids,art",
   ];
   return (
     <section className="my-16">
