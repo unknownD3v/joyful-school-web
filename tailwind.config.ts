@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 export default {
   darkMode: ["class"],
@@ -23,18 +22,25 @@ export default {
         display: ['Playfair Display', 'serif'],
       },
       colors: {
-        cream: "#fff7e6",
-        skyblue: "#cbeffd",
-        blush: "#ffeceb",
+        cream: "#EEEFE0",
+        primary: "#819A91",
+        accent: "#A7C1A8",
+        secondary: "#D1D8BE",
+        
+        // Mapped old colors to the new palette for sitewide consistency
+        skyblue: "#D1D8BE",
+        blush: "#A7C1A8",
         pastel: {
-          yellow: "#fff7e6",
-          blue: "#cbeffd",
-          pink: "#ffeceb",
-          green: "#e8ffe6",
+          yellow: "#D1D8BE",
+          blue: "#A7C1A8",
+          pink: "#D1D8BE",
+          green: "#A7C1A8",
         },
-        accent: "#ffd964",
-        primary: "#3286e6",
-        secondary: "#faf3dd"
+        // Override default blue to keep button hovers consistent with the new palette
+        blue: {
+          '600': '#A7C1A8',
+          '700': '#A7C1A8',
+        }
       },
       backgroundImage: {
         'clouds': "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80')",
