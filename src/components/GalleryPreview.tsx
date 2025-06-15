@@ -1,11 +1,12 @@
+
 import React from "react";
 
 const GalleryPreview = () => {
   const images = [
-    "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=400&q=80",
-    "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=400&q=80",
-    "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=400&q=80",
-    "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=400&q=80",
+    "https://images.unsplash.com/photo-1527419163649-65481a5390a7?auto=format&fit=crop&w=400&q=80",
+    "https://images.unsplash.com/photo-1587413009772-1c05d7a641a1?auto=format&fit=crop&w=400&q=80",
+    "https://images.unsplash.com/photo-1503919545826-a9d9e3de8340?auto=format&fit=crop&w=400&q=80",
+    "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=400&q=80",
   ];
   return (
     <section className="my-16">

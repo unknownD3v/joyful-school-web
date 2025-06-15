@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 const programs = [
@@ -10,7 +9,7 @@ const programs = [
       "Play-based, hands-on exploration",
       "Music, art, outdoor fun",
     ],
-    photo: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+    photo: "https://images.unsplash.com/photo-1503919545826-a9d9e3de8340?auto=format&fit=crop&w=400&q=80"
   },
   {
     name: "Nursery",
@@ -20,7 +19,7 @@ const programs = [
       "Numbers, patterns, letters",
       "Foundation for joyful learning",
     ],
-    photo: "https://images.unsplash.com/photo-1455813870873-4c47cb7c1eeb?auto=format&fit=crop&w=400&q=80"
+    photo: "https://images.unsplash.com/photo-1527419163649-65481a5390a7?auto=format&fit=crop&w=400&q=80"
   },
   {
     name: "Lower KG (LKG)",
@@ -30,7 +29,7 @@ const programs = [
       "Independence, responsibility",
       "Montessori play materials, STEAM",
     ],
-    photo: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=400&q=80"
+    photo: "https://images.unsplash.com/photo-1587413009772-1c05d7a641a1?auto=format&fit=crop&w=400&q=80"
   },
   {
     name: "Upper KG (UKG)",
@@ -40,7 +39,7 @@ const programs = [
       "Public speaking, teamwork",
       "Skill mastery, bridging to formal school",
     ],
-    photo: "https://images.unsplash.com/photo-1522506203671-4b4a683207b1?auto=format&fit=crop&w=400&q=80"
+    photo: "https://images.unsplash.com/photo-1519340241574-2cec6a12a1c1?auto=format&fit=crop&w=400&q=80"
   }
 ];
 const Programs = () => (

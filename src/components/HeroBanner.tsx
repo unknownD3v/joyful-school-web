@@ -20,8 +20,8 @@ const HeroBanner = () => (
     </div>
     <div className="absolute left-1/2 -translate-x-1/2 bottom-[-60px] md:bottom-[-90px]">
       <img
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
-        alt="Happy kids in school"
+        src="https://images.unsplash.com/photo-1517524206127-48bbd363f59c?auto=format&fit=crop&w=600&q=80"
+        alt="Happy kids learning with a teacher"
         loading="lazy"
         className="rounded-3xl shadow-xl w-80 h-52 object-cover border-4 border-cream"
       />
